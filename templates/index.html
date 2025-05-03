@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle Detection Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 30px;
+        }
+
+        video {
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #520a99;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uploaded Video</h1>
+
+    <!-- Video player -->
+    <video id="videoPlayer" width="720" controls>
+        <source src="{{ url_for('static', filename='processed_videos/output.mp4') }}" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <br>
+    <button onclick="replayVideo()">Replay</button>
+
+    <script>
+        const video = document.getElementById("videoPlayer");
+
+        // Play/pause on video click
+        video.addEventListener("click", function () {
+            if (video.paused) {
+                video.play();
+            } else {
+                video.pause();
+            }
+        });
+
+        // Replay function for button
+        function replayVideo() {
+            video.currentTime = 0;
+            video.play();
+        }
+    </script>
+</body>
+</html>

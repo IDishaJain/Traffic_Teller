@@ -1,0 +1,18 @@
+{
+    "north_count": {
+        "Car": 3,
+        "Truck": 2,
+        "2 Wheeler": 0,
+        "Bus": 0,
+        "Minibus": 1,
+        "Tempo": 1
+    },
+    "south_count": {
+        "Car": 3,
+        "Truck": 0,
+        "2 Wheeler": 0,
+        "Bus": 3,
+        "Minibus": 7,
+        "Tempo": 34
+    }
+}
