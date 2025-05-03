@@ -11,7 +11,7 @@ Vehicle tracking involves identifying and following vehicle movements through vi
 
 ## Setup Instructions
 
-This guide will help you get [Project Name] running locally.
+This guide will help you get Traffic Teller running locally.
 
 ## Prerequisites
 
