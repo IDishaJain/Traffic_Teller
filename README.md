@@ -56,14 +56,14 @@ This guide will help you get [Project Name] running locally.
 
 ## Screenshots
 
-# Landing Page
+### Landing Page
 ![Landing Page](Screenshots/Landing%20Page.png)
 
-# Uplaod Video Page
+### Uplaod Video Page
 ![Upload Video Page](Screenshots/Upload%20Video%20Page.png)
 
-# Vehicle Detection and Counting
+### Vehicle Detection and Counting
 ![Vehicle Detection and Counting](Screenshots/Vehicle%20Detection%20and%20Counting.png)
 
-# Vehicle Distribution Chart
+### Vehicle Distribution Chart
 ![Vehicle Distribution Chart](Screenshots/Vehicle%20Distribution%20Chart.png)
