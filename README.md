@@ -1,6 +1,8 @@
 # Vehicle Detection and Counting 
 
-Vehicle tracking refers to the process of identifying and following the movement of vehicles using camera systems. Capturing vehicles in video streams from surveillance cameras is a complex yet vital task for enhancing tracking accuracy. This technology supports a growing range of applications, including traffic management, monitoring, flow analysis, and public safety. Its implementation is cost-effective, making it accessible for widespread use. Video and image processing techniques have become integral to traffic surveillance, enabling the analysis and monitoring of road conditions in urban environments. Vehicle detection plays a crucial role by providing essential data for vehicle counting, speed estimation, accident detection, traffic flow analysis, and forecasting. <br>
+A web application that detects, classifies, and counts vehicles from uploaded videos using computer vision techniques. It generates a vehicle distribution chart for visual analysis, aiding in traffic management and urban planning.
+
+Vehicle tracking involves identifying and following vehicle movements through video surveillance, playing a crucial role in modern traffic monitoring systems. This application supports key functions such as traffic flow analysis, vehicle counting, and public safety—all in a cost-effective and scalable solution.
 
 ## Modules: <br>
 1. Vehicle Detetction
